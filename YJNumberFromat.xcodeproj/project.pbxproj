@@ -15,6 +15,7 @@
 		6B4C58201BFA08CC009835E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4C581E1BFA08CC009835E4 /* LaunchScreen.storyboard */; };
 		6B4C582B1BFA08CC009835E4 /* YJNumberFromatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C582A1BFA08CC009835E4 /* YJNumberFromatTests.m */; };
 		6B4C58361BFA08CC009835E4 /* YJNumberFromatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C58351BFA08CC009835E4 /* YJNumberFromatUITests.m */; };
+		6B4C58461BFA0DC8009835E4 /* UITextField+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C58451BFA0DC8009835E4 /* UITextField+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6B4C58311BFA08CC009835E4 /* YJNumberFromatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJNumberFromatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4C58351BFA08CC009835E4 /* YJNumberFromatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJNumberFromatUITests.m; sourceTree = "<group>"; };
 		6B4C58371BFA08CC009835E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4C58441BFA0DC8009835E4 /* UITextField+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Helper.h"; sourceTree = "<group>"; };
+		6B4C58451BFA0DC8009835E4 /* UITextField+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		6B4C580F1BFA08CC009835E4 /* YJNumberFromat */ = {
 			isa = PBXGroup;
 			children = (
+				6B4C58431BFA0DC8009835E4 /* Category */,
 				6B4C58131BFA08CC009835E4 /* AppDelegate.h */,
 				6B4C58141BFA08CC009835E4 /* AppDelegate.m */,
 				6B4C58161BFA08CC009835E4 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				6B4C58371BFA08CC009835E4 /* Info.plist */,
 			);
 			path = YJNumberFromatUITests;
+			sourceTree = "<group>";
+		};
+		6B4C58431BFA0DC8009835E4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6B4C58441BFA0DC8009835E4 /* UITextField+Helper.h */,
+				6B4C58451BFA0DC8009835E4 /* UITextField+Helper.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B4C58181BFA08CC009835E4 /* ViewController.m in Sources */,
+				6B4C58461BFA0DC8009835E4 /* UITextField+Helper.m in Sources */,
 				6B4C58151BFA08CC009835E4 /* AppDelegate.m in Sources */,
 				6B4C58121BFA08CC009835E4 /* main.m in Sources */,
 			);
